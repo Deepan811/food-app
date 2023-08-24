@@ -1,0 +1,415 @@
+*{
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.first .logo{
+    margin-top: 2%;
+    margin-left:5%;
+}
+.first .logo h1{
+    color: brown;
+    position: sticky;
+    margin-left:7%;
+    margin-top: -3.5%;
+    line-height: 0%;
+    font-size: 35px;
+}
+ .one{
+    width: 8%;
+    height: 50px;
+    color: black;
+    margin-left: 31%;
+    margin-top:-7% ;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: none;
+    
+
+}
+.one a{
+    color: black;
+    text-decoration: none;
+}
+
+.two{
+    width: 8%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-left:0%;
+    margin-top:-7% ;
+    font-size: large;
+
+}
+.two a{
+    color: white;
+    text-decoration: none;
+}
+.para p{
+    margin-left: 7%;
+    position: absolute; 
+    top: 20%;
+    font-size: 50px;
+    opacity: 0;
+    animation: text 3s ease-in-out;
+}
+.para p:nth-child(1){
+    animation-delay:0s ;
+}
+.para p:nth-child(2){
+    animation-delay:3s ;
+}
+.para p:nth-child(3){
+    animation-delay: 6s;
+}
+.para p:nth-child(4){
+    animation-delay:9s ;
+}
+.para p:nth-child(5){
+    animation-delay:11s ;
+}
+@keyframes text{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .para p{
+        font-size: 30px;
+    }
+}
+.int1{
+    margin-left: 7%;
+    margin-top: 2%;
+
+}
+.int1 input{
+    width: 36%;
+    height: 50px;
+}
+.int2{
+    
+    margin-left: 40.5%;
+    margin-top:-3.3%;
+    
+}
+.int2 input{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 12%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fiimg{
+    margin-left: 50%;
+    margin-top: -22%;
+}
+.fiimg img{
+    width:750px;
+    height: 500px;
+}
+.line{
+    margin-left:7%;
+    margin-top: 8%;
+    font-size: 20px;
+    color: grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line1{
+    margin-top: -10%;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    color: grey;
+}
+.line2{
+    word-spacing: 3px;
+    margin-left:7%;
+}
+.image1{
+    margin-left: 15%;
+    margin-top: 6%;
+    
+}
+.image1 img{
+    margin-top: 1%;
+    width: 100px;
+    height: 150px; 
+}
+.line3{
+    margin-top: 1%;
+    color: white;
+    margin-left: 13%;
+}
+.line4{
+    color: rgb(163, 154, 154);
+    margin-left: 10%;
+}
+.line5{
+    color: rgb(163, 154, 154);
+    margin-left: 10.5%;
+}
+.image2{
+    margin-left:45% ;
+    margin-top: -14.5%;
+}
+.image2 img{
+   
+    width: 100px;
+    height: 150px; 
+}
+.line6{
+    margin-top: 1%;
+    color: white;
+    margin-left: 43%;
+}
+.line7{
+    color: rgb(163, 154, 154);
+    margin-left: 40%;
+}
+.line8{
+    color: rgb(163, 154, 154);
+    margin-left: 40.2%;
+}
+.image3{
+    margin-left: 75%;
+    margin-top: -15%;
+}
+.image3 img{
+    width: 100px;
+    height: 150px; 
+}
+.line9{
+    margin-top: 1%;
+    color: white;
+    margin-left: 73%;
+}
+.line10{
+    color: rgb(163, 154, 154);
+    margin-left: 70%;
+}
+.line11{
+    color: rgb(163, 154, 154);
+    margin-left: 70.2%;
+}
+.line12{
+    color: black;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 40px;
+}
+.line13{
+    color: black;
+    margin-left: 10%;
+    font-size: 40px;
+}
+.line14{
+    margin-top: 1%;
+    color: rgb(163, 154, 154);
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line15{
+    color: rgb(163, 154, 154);
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image4{
+    margin-top: 4%;
+    margin-left: 10%;
+
+}
+.image4 img{
+    width: 200px;
+    height: 50px;
+}
+.image5{
+    margin-top: -3.5%;
+    margin-left: 25%;
+}
+.image5 img{
+    width: 200px;
+    height: 50px;
+}
+.image6{
+    margin-left: 45%;
+    margin-top: -27%;
+}
+.image6 img{
+    width: 400px;
+    height: 500px;
+}
+.image7{
+    margin-left: 70%;
+    margin-top: -28%;
+}
+.image7 img{
+    width: 400px;
+    height: 500px;
+}
+.line16{
+    margin-top:5%;
+    color:rgb(0, 0, 0);
+    margin-left: 10%;
+    top: 10%;
+}
+.line30{
+    color: rgb(163, 154, 154);
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.line17{
+    margin-top: 2%;
+    color: white;
+    margin-left: 12%;
+}
+.line18{
+    margin-top: 1%;
+    color: white;
+    margin-left: 12%;
+}
+.line19{
+    margin-top: 1%;
+    color: white;
+    margin-left: 12%;
+}
+.line20{
+    margin-top: 1%;
+    color: white;
+    margin-left: 12%;
+}
+.line21{
+    margin-top: -10.8%;
+    margin-left: 30%;
+    color:rgb(163, 154, 154);
+}
+.line22{
+    margin-top: 2%;
+    margin-left: 30%;
+    color: white;
+}
+.line23{
+    margin-top: 1%;
+    margin-left: 30%;
+    color: white;
+}
+.line24{
+    margin-top: 1%;
+    margin-left: 30%;
+    color: white;
+}
+.line25{
+    margin-top: -8.8%;
+    margin-left: 50%;
+    color:rgb(163, 154, 154);
+}
+.line26{
+    margin-top: 2%;
+    margin-left: 50%;
+    color: white;
+}
+.line27{
+    margin-top: 1%;
+    margin-left: 50%;
+    color: white;
+}
+.line28{
+    margin-top: 1%;
+    margin-left: 50%;
+    color: white;
+}
+.line29{
+    margin-top: 1%;
+    margin-left: 50%;
+    color: white;
+}
+.image8{
+    margin-top: -2%;
+margin-left: 70%;
+}
+.image8 img{
+    width: 200px;
+    height: 50px;
+}
+.image9{
+    margin-top: -15%;
+    margin-left: 70%;
+}
+.image9 img{
+    
+    width: 200px;
+    height: 50px;
+}
+.line31{
+    margin-top: 3%;
+    color:rgb(163, 154, 154);
+    margin-left: 12%;
+}
+.line32{
+    margin-top: 1%;
+    color: antiquewhite;
+    margin-left: 12%;
+}
+.line33{
+    margin-top: -1%;
+    color: aliceblue;
+    margin-left: 70%;
+}
+.bottom h1{
+    margin-top: 3%;
+    color: white;
+    font-size: 30px;
+    margin-left: 12%;
+}
+.bottom1 h1{
+    color: white;
+    margin-left: 45%;
+    margin-top: -2%;
+}
+.bl1{
+    margin-top: -2%;
+}
+.bl1 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 70%;
+   
+}
+.bl2 {
+    margin-top: -1%;
+}
+.bl2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 75%;
+    margin-top: -8%;
+}
+.bl3{
+    margin-top: -1%;
+}
+.bl3 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: -8%;
+}
+.bl4{
+    margin-top: -1%;
+}
+.bl4 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 85%;
+    margin-top: -28%;
+}
